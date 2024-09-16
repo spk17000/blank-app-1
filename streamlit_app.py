@@ -34,7 +34,7 @@ share_equity = st.text_input('What is the shareholder\'s equity in the company? 
 MIE = st.text_input("What is the existing Monthly Interest Expense? ")
 Inst_invest = st.selectbox("Is there an institutional investor in the company?", ['Yes', 'No'])
 P_promoter = st.number_input("What is the % of promoter holding in the company?", min_value=0.0, max_value=100.0)
-Revenue = st.text_input("What was your revenue in the last fiscal year or LTM? Please enter just a number. ")
+Revenue = st.number_input("What was your revenue in the last fiscal year or LTM? Please enter just a number. ")
 Rec_Rev = st.text_input("What was the monthly recurring revenue/ average monthly revenue?")
 EBIT = st.text_input("What was the EBIT margin (%) of the company in the LTM? Please enter without percent symbol. ")
 Phys_asset = st.text_input("Does the company/promoter own any physical assets that can be used as collateral for financing? ")
